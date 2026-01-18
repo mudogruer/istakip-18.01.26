@@ -1,0 +1,113 @@
+{
+  "general": [
+    {
+      "id": "SET-01",
+      "label": "E-posta bildirimleri",
+      "value": true,
+      "description": "İş ve satınalma hareketlerinde e-posta gönder"
+    },
+    {
+      "id": "SET-02",
+      "label": "SMS bildirimleri",
+      "value": false,
+      "description": "Kritik stok ve gecikmelerde SMS gönder"
+    },
+    {
+      "id": "SET-03",
+      "label": "Otomatik yedekleme",
+      "value": true,
+      "description": "Günlük veri yedeği oluştur"
+    }
+  ],
+  "jobRoles": [
+    {
+      "id": "ROLE-01",
+      "name": "PVC Doğrama",
+      "description": "PVC pencere, kapı sistemleri",
+      "productionType": "internal",
+      "requiresGlass": true,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 5,
+      "active": true
+    },
+    {
+      "id": "ROLE-02",
+      "name": "Cam Balkon",
+      "description": "Cam balkon sistemleri, katlanır cam",
+      "productionType": "internal",
+      "requiresGlass": true,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 4,
+      "active": true
+    },
+    {
+      "id": "ROLE-03",
+      "name": "Sineklik",
+      "description": "Pencere ve kapı sineklikleri",
+      "productionType": "internal",
+      "requiresGlass": false,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 2,
+      "active": true
+    },
+    {
+      "id": "ROLE-04",
+      "name": "Alüminyum Doğrama",
+      "description": "Alüminyum pencere, kapı ve cephe",
+      "productionType": "external",
+      "requiresGlass": true,
+      "defaultSupplier": null,
+      "estimatedDays": 10,
+      "active": true
+    },
+    {
+      "id": "ROLE-05",
+      "name": "Plise Perde",
+      "description": "Pileli perde sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 7,
+      "active": true
+    },
+    {
+      "id": "ROLE-06",
+      "name": "Panjur",
+      "description": "Otomatik ve manuel panjur sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 8,
+      "active": true
+    },
+    {
+      "id": "ROLE-07",
+      "name": "Jaluzi",
+      "description": "Jaluzi perde sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 5,
+      "active": true
+    }
+  ],
+  "glassTypes": [
+    {
+      "id": "GLASS-7A32F34A",
+      "name": "SİNERJİ",
+      "code": "4+16+4 "
+    },
+    {
+      "id": "GLASS-B5B40F56",
+      "name": "KONFOR",
+      "code": "4+16+4"
+    }
+  ],
+  "combinationTypes": [
+    {
+      "id": "COMB-A3AD17DF",
+      "name": "TEMPER",
+      "createdAt": "2026-01-17T10:36:22.687614"
+    }
+  ]
+}
